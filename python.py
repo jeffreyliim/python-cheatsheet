@@ -39,6 +39,12 @@ any(elem in array1 for elem in array2)
 # results = 6
 sum(array1)
 
+# results = True
+isinstance(1, int)
+
+# results = True
+isinstance('a', 'string')
+
 ############   INTEGERS/FLOATS    ############
 # num = -5
 
