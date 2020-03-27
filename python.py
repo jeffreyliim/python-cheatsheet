@@ -43,7 +43,16 @@ sum(array1)
 isinstance(1, int)
 
 # results = True
-isinstance('a', 'string')
+isinstance('a', str)
+
+# results = True
+isinstance((), tuple)
+
+# results = True
+isinstance({}, dict)
+
+# results = True
+isinstance([], list)
 
 ############   INTEGERS/FLOATS    ############
 # num = -5
