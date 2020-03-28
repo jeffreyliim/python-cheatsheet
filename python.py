@@ -36,23 +36,25 @@ array2=[1,5,6]
 # results = True
 any(elem in array1 for elem in array2)  
 
-# results = 6
-sum(array1)
-
 # results = True
 isinstance(1, int)
+type(1) == int
 
 # results = True
 isinstance('a', str)
+type('a') == str
 
 # results = True
 isinstance((), tuple)
+type(()) == tuple
 
 # results = True
 isinstance({}, dict)
+type({}) == dict
 
 # results = True
 isinstance([], list)
+type([]) == list
 
 ############   INTEGERS/FLOATS    ############
 # num = -5
@@ -152,6 +154,9 @@ sorted(array)
 # results = [(3, 5), (1, 4), (2, 3)]
 sorted(arrayOfTuples, key = lambda x: x[1], reverse=True)
 
+# arrayOfStrings = ['a','abcd','ab','abc']
+# results = ['a','ab','abc','abcd']
+sorted(arrayOfStrings, key = len)
 # count elem == value in list
 array.count('4') 	# returns 1
 
@@ -170,6 +175,28 @@ array
 array.sort()
 array
 
+# results = [1, 3]							******** TIP: lambda is basically returning a function  ********
+def filterOdd(a):
+    if a % 2 == 1:
+        return True
+    else:
+        return False
+list(filter(filterOdd, array1)) or list(filter(lambda x : x % 2 ==1, array1))			
+
+# results = 10
+sum(array1)
+
+# results = 1
+min(array1)
+
+# results 3
+min(3, 4)
+
+# results = 4
+max(array1)
+
+# results = 4
+max(3, 4)
 
 
 ############   STRINGS   ############
@@ -177,9 +204,6 @@ array
 
 # ******** tip ******** expected result = 'azcd', actual result = cannot item assign to string
 # cannot change char in string by doing string[1] = 'z'.
-
-# results = 'abcd'
-string[::1] == string[:] == string[::]
 
 # results = 'abcd'
 string[::1] == string[:] == string[::]
