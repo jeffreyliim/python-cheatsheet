@@ -76,6 +76,9 @@ math.ceil(2.5)
 # results = 25
 num**2
 
+# results = -0000000000000000000000000000101			unsigned 32 int to binary
+"{:032b}".format(n)
+
 
 ############	 MAPS/DICTIONARIES    ############
 # mapp = {'a': 1,'b': 2,'c': 3}

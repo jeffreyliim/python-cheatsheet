@@ -2,6 +2,12 @@ https://leetcode.com/problems/permutations/submissions/
 
 https://leetcode.com/problems/symmetric-tree/submissions	# mirror tree
 
+https://leetcode.com/problems/maximum-depth-of-binary-tree
+
+https://leetcode.com/problems/minimum-depth-of-binary-tree
+
+https://leetcode.com/problems/maximum-depth-of-n-ary-tree
+
 https://leetcode.com/problems/plus-one/submissions/submissions
 
 https://leetcode.com/problems/n-ary-tree-preorder-traversal/submissions
@@ -35,3 +41,6 @@ https://leetcode.com/problems/invert-binary-tree/submissions
 https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 
 https://repl.it/@JeffreyLim/minimum-number-of-flips-in-binary-string
+
+
+
