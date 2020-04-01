@@ -95,6 +95,11 @@ num**2
 for key in mapp:
 	print(key, mapp[key])
 
+for i in mapp.items():
+	key = i[0]
+	val = i[1]
+	print(key, val)
+
 # results = c 3 , reverse for loop
 #			      b 2
 #			      a 1 
@@ -118,7 +123,7 @@ mapp.update(mapp2)
 ############   ARRAYS   ############
 # array = [1,2,3,4]
 
-# results = 1     ******** TIP: the original list is MUTABLE in the forloop, means CAN change value while in the loop ********
+# results = 1     ******** TIP: the original list is MUTABLE in the forloop, means CAN change value while in the loop, BUT DONT REMOVE ELSE INDEX OUT OR RANGE ********
 #     2
 #     3
 #     4
@@ -150,8 +155,8 @@ array
 array.sort(reverse=True)
 array
 
-# results = [1, 2, 3, 4]      ******** TIP: sorted() always returns type list ********
-sorted(array)
+# results = [4, 3, 2, 1]      ******** TIP: sorted() always returns type list ********
+sorted(array, reverse=True)
 
 # arrayOfTuples = [(1,4), (2,3), (3, 5)]
 # results = [(3, 5), (1, 4), (2, 3)]
@@ -234,6 +239,11 @@ string.split(',')
 # results = ['a','b','cd'], splits a string 
 string.split(',', 2)
 
+# string = 'a b c d'
+# results = ['a','b','c','d']
+string.split(' ')
+
+# string = 'abcd'
 # results = ['a','b','c','d'], splits a string into individual characters
 list(string)
 
@@ -261,7 +271,7 @@ string.isnumeric()
 # results = 1234
 int(string)
 
-# results = 123.0
+# results = 1234.0
 float(string)
 
 # results = 0   results = -1
@@ -315,6 +325,28 @@ t.add(t, 4)
 t.add(t, 8)
 t.add(t, 15)
 t.add(t, 21)
+
+
+
+# n array, construct binary search tree
+# arr = [1, 2, 3]
+root = None
+for i in range(len(arr)):
+  val = arr[i]
+  root = self.constructbinarysearchtree(root, val)
+return root
+
+
+def constructbinarysearchtree(self, root, val):
+  if not root:
+    return BinaryTre(val)
+  if val <= root.val:
+    root.left = self.constructbinarysearchtree(root.left, val)
+  else:
+    root.right = self.constructbinarysearchtree(root.right, val)
+  # this root is returned as the first root node when the above calls are finished.
+  return root
+
 
 # results = 
 #		   10
