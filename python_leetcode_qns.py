@@ -1,3 +1,5 @@
+https://leetcode.com/problems/maximum-subarray/
+
 https://leetcode.com/problems/permutations/submissions/
 
 https://leetcode.com/problems/symmetric-tree/submissions	# mirror tree
@@ -40,5 +42,8 @@ https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 
 https://repl.it/@JeffreyLim/minimum-number-of-flips-in-binary-string
 
+https://leetcode.com/problems/trim-a-binary-search-tree/
 
+https://leetcode.com/problems/insert-into-a-binary-search-tree/
 
+https://leetcode.com/problems/search-in-a-binary-search-tree/

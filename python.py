@@ -299,6 +299,11 @@ ll.insert(4)
 ############   BINARY TREE   ############
 # ********  tip ******** if you are doing traversals and want to add a value in a list, copy the value and add it in. Else, it might return the old value
 # refer to https://leetcode.com/submissions/detail/314657078/
+
+# results = 
+#      10
+#    5        20
+#   4   8   15   21
 class BinaryTree:
   def __init__(self, val):
     self.left = None
@@ -328,32 +333,61 @@ t.add(t, 21)
 
 
 
-# n array, construct binary search tree
+# construct binary search tree with an array given
 # arr = [1, 2, 3]
+def constructbinarysearchtree(self, root, val)
 root = None
 for i in range(len(arr)):
   val = arr[i]
-  root = self.constructbinarysearchtree(root, val)
+  # replacing the entire binary tree with the new value inside
+  root = self.construct(root, val)
 return root
 
 
-def constructbinarysearchtree(self, root, val):
+def construct(self, root, val):
+  # here is when we construct by adding a node
   if not root:
-    return BinaryTre(val)
+    return BinaryTree(val)
   if val <= root.val:
-    root.left = self.constructbinarysearchtree(root.left, val)
+    root.left = self.construct(root.left, val)
   else:
-    root.right = self.constructbinarysearchtree(root.right, val)
+    root.right = self.construct(root.right, val)
   # this root is returned as the first root node when the above calls are finished.
   return root
 
 
-# results = 
-#		   10
-#	   5        20
-#   4	  8   15   21
+# search for a node val in binary search tree and return its children
+def searchBST(self, root: TreeNode, val: int) -> TreeNode:
+  res = None
+  res = self.search(root, val)
+  return res
+    
+def search(self, root:TreeNode, val: int):
+  if not root:
+    return None
+  elif root and root.val == val:
+    return root
+  else:
+    if val <= root.val:
+      return self.searchBST(root.left, val)
+    else:
+      return self.searchBST(root.right, val)
 
 
+# checks if its a binary search tree. Using in order,
+def isValidBST(self, root: TreeNode) -> bool:
+  temp = []
+  self.inorder(root, temp)
+  if(len(set(temp)) != len(temp)):
+    return False
+  copy_temp = sorted(temp[:])
+  return copy_temp == temp
+    
+def inorder(self, root: TreeNode, temp: List[int]):
+  if root:
+    self.inorder(root.left, temp)
+    temp.append(root.val)
+    self.inorder(root.right, temp)
 
 ############   MIN HEAP   ############
 # heap = []           
