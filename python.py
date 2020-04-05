@@ -36,6 +36,9 @@ array2=[1,5,6]
 # results = True
 any(elem in array1 for elem in array2)  
 
+# results = [[], [], []]
+[[] for _ in range(3)]
+
 # results = True
 isinstance(1, int)
 type(1) == int
@@ -80,6 +83,20 @@ num**2
 "{:032b}".format(n)
 
 
+
+############   SETS    ############
+
+# array = [3, 2, 1, 1]
+
+# results = {1, 2, 3}     ******** TIP: sets will return always return unsorted/unordered and unindexed ******** 
+set(array)
+
+# results = [1, 2, 3]
+list(set(array))
+
+# results = 3
+len(set(array))
+
 ############	 MAPS/DICTIONARIES    ############
 # mapp = {'a': 1,'b': 2,'c': 3}
 
@@ -119,6 +136,9 @@ len(mapp)
 # results = {'a': 1, 'b': 2, 'c': 4, 'd': 5, 'e': 6}, merge 2 dictionaries together 
 mapp.update(mapp2)
 
+# array = ['word1', 'word2', 'word3'] 
+# results = {'word1':'test', 'word2':'test', 'word3':'test'}
+dict.fromkeys(array, 'test')
 
 ############   ARRAYS   ############
 # array = [1,2,3,4]
@@ -206,6 +226,10 @@ max(array1)
 # results = 4
 max(3, 4)
 
+# results = 2.5
+import statistics
+statistics.mean(array1)
+
 
 ############   STRINGS   ############
 # string = 'abcd'
@@ -230,6 +254,13 @@ string[::-2]
 
 # results = 4, length of string
 len(string)
+
+# results =  a
+# 	     b
+#   	     c
+#	     d
+for i in range(len(string)):    		******** TIP: cannot directly replace each element value while doing forloop because type string is not subscriptable. Instead do list(string) ********
+	print(a[i])
 
 # string = 'a,b,c,d'
 # results = ['a','b','c','d'], splits a string that MUST have a separator.
@@ -332,7 +363,7 @@ t.add(t, 15)
 t.add(t, 21)
 
 
-
+# ********  tip ******** binary search trees have distinct keys hence duplicate keys are not allowed!!
 # construct binary search tree with an array given
 # arr = [1, 2, 3]
 def constructbinarysearchtree(self, root, val)
@@ -389,6 +420,23 @@ def inorder(self, root: TreeNode, temp: List[int]):
     temp.append(root.val)
     self.inorder(root.right, temp)
 
+# checks if its a valid binary tree. 1. Do an in order traversal, put it in temp array. Sort the array and do a comparison. if same, its a binary tree.
+def isValidBST(self, root):
+        data = []
+        self.inorder(root, data)
+        print(set(data))
+        # do set to find out duplicates, 
+        if len(set(data)) != len(data):
+            return False
+        data_copy = data[:]
+        data_copy.sort()
+        return data_copy == data
+        
+def inorder(self, root, data):
+    if root:
+        self.inorder(root.left, data)
+        data.append(root.val)
+        self.inorder(root.right, data)
 ############   MIN HEAP   ############
 # heap = []           
 # results = heap = [1, 2, 3, 4]
@@ -419,4 +467,20 @@ c.values()
 
 # results = 6  ,  9
 sum(c.keys()) or sum(c.values())
+
+
+
+
+############   DEQUEUE   ############   <- high performance container datatypes
+from collections import deque
+queue = deque([1,2,3,4,5])
+
+# results = deque([1, 2, 3, 4])
+queue.pop()
+
+# results = deque([2, 3, 4, 5])
+queue.popleft()
+
+# results = [1, 2, 3, 4, 5]
+list(queue)
 

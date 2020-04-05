@@ -1,5 +1,9 @@
 https://leetcode.com/problems/maximum-subarray/
 
+https://leetcode.com/problems/di-string-match/submissions/
+
+https://leetcode.com/problems/jump-game/submissions/
+
 https://leetcode.com/problems/permutations/submissions/
 
 https://leetcode.com/problems/symmetric-tree/submissions	# mirror tree
@@ -47,3 +51,11 @@ https://leetcode.com/problems/trim-a-binary-search-tree/
 https://leetcode.com/problems/insert-into-a-binary-search-tree/
 
 https://leetcode.com/problems/search-in-a-binary-search-tree/
+
+https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree
+
+https://leetcode.com/problems/binary-tree-level-order-traversal
+
+https://leetcode.com/problems/delete-leaves-with-a-given-value
+
+https://leetcode.com/problems/add-one-row-to-tree
