@@ -23,6 +23,9 @@ array2=[2,3]
 # results = False
 all(elem in array1 for elem in array2) 	
 
+# results = True
+all(elem in array2 for elem in array1)
+
 # check if ANY elements in array1 elements exist in array
 array1=[1,2,3]
 array2=[4,5,6]
@@ -58,6 +61,9 @@ type({}) == dict
 # results = True
 isinstance([], list)
 type([]) == list
+
+# results = 3
+array1[-1]
 
 ############   INTEGERS/FLOATS    ############
 # num = -5
@@ -387,7 +393,7 @@ def construct(self, root, val):
   return root
 
 
-# search for a node val in binary search tree and return its children
+# search for a node val in binary search tree and return the node and its children
 def searchBST(self, root: TreeNode, val: int) -> TreeNode:
   res = None
   res = self.search(root, val)
@@ -405,7 +411,8 @@ def search(self, root:TreeNode, val: int):
       return self.searchBST(root.right, val)
 
 
-# checks if its a binary search tree. Using in order,
+# checks if its a valid binary tree. 1. Do an in order traversal, put it in temp array. Sort the array and do a comparison, remove duplicate (not allowed in binary tree)
+# by using set. if same, its a binary tree.
 def isValidBST(self, root: TreeNode) -> bool:
   temp = []
   self.inorder(root, temp)
@@ -420,23 +427,7 @@ def inorder(self, root: TreeNode, temp: List[int]):
     temp.append(root.val)
     self.inorder(root.right, temp)
 
-# checks if its a valid binary tree. 1. Do an in order traversal, put it in temp array. Sort the array and do a comparison. if same, its a binary tree.
-def isValidBST(self, root):
-        data = []
-        self.inorder(root, data)
-        print(set(data))
-        # do set to find out duplicates, 
-        if len(set(data)) != len(data):
-            return False
-        data_copy = data[:]
-        data_copy.sort()
-        return data_copy == data
-        
-def inorder(self, root, data):
-    if root:
-        self.inorder(root.left, data)
-        data.append(root.val)
-        self.inorder(root.right, data)
+
 ############   MIN HEAP   ############
 # heap = []           
 # results = heap = [1, 2, 3, 4]

@@ -46,6 +46,8 @@ https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 
 https://repl.it/@JeffreyLim/minimum-number-of-flips-in-binary-string
 
+https://leetcode.com/problems/path-sum/
+
 https://leetcode.com/problems/trim-a-binary-search-tree/
 
 https://leetcode.com/problems/insert-into-a-binary-search-tree/
@@ -59,3 +61,5 @@ https://leetcode.com/problems/binary-tree-level-order-traversal
 https://leetcode.com/problems/delete-leaves-with-a-given-value
 
 https://leetcode.com/problems/add-one-row-to-tree
+
+https://leetcode.com/problems/sort-colors/
