@@ -85,6 +85,12 @@ math.ceil(2.5)
 # results = 25
 num**2
 
+# -inf 		negative infinity
+float('-inf')
+
+# inf		infinity
+float('inf')
+
 # results = -0000000000000000000000000000101			unsigned 32 int to binary
 "{:032b}".format(n)
 
@@ -236,6 +242,8 @@ max(3, 4)
 import statistics
 statistics.mean(array1)
 
+# results = 1 2 3 4	destructuring list
+*array1
 
 ############   STRINGS   ############
 # string = 'abcd'

@@ -2,6 +2,16 @@ https://leetcode.com/problems/maximum-subarray/
 
 https://leetcode.com/problems/di-string-match/submissions/
 
+https://leetcode.com/problems/first-missing-positive
+
+https://leetcode.com/problems/palindrome-partitioning/
+
+https://leetcode.com/problems/middle-of-the-linked-list
+
+https://leetcode.com/problems/string-without-aaa-or-bbb/
+
+https://repl.it/@JeffreyLim/Minimum-area-two-banners-cover-buildings
+
 https://leetcode.com/problems/jump-game/submissions/
 
 https://leetcode.com/problems/permutations/submissions/
@@ -62,4 +72,13 @@ https://leetcode.com/problems/delete-leaves-with-a-given-value
 
 https://leetcode.com/problems/add-one-row-to-tree
 
+https://leetcode.com/problems/maximum-binary-tree/
+
+https://leetcode.com/problems/maximum-binary-tree-ii/
+
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+
 https://leetcode.com/problems/sort-colors/
+
+https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+
