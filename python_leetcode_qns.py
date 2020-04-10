@@ -16,7 +16,7 @@ https://leetcode.com/problems/jump-game/submissions/
 
 https://leetcode.com/problems/permutations/submissions/
 
-https://leetcode.com/problems/symmetric-tree/submissions	# mirror tree
+https://leetcode.com/problems/symmetric-tree
 
 https://leetcode.com/problems/maximum-depth-of-binary-tree
 
