@@ -65,6 +65,21 @@ type([]) == list
 # results = 3
 array1[-1]
 
+############   CLASSES    ############
+# results = 10000
+class Solution():
+    def main(self):
+        self.ans = 0
+	self.changeAns()
+	return self.ans
+
+    def changeAns(self):
+	self.ans = 10000
+
+a = Solution()
+a.main()
+
+
 ############   INTEGERS/FLOATS    ############
 # num = -5
 
@@ -155,11 +170,18 @@ dict.fromkeys(array, 'test')
 ############   ARRAYS   ############
 # array = [1,2,3,4]
 
-# results = 1     ******** TIP: the original list is MUTABLE in the forloop, means CAN change value while in the loop, BUT DONT REMOVE ELSE INDEX OUT OR RANGE ********
+# results = 1     ******** TIP: the original list is MUTABLE in the forloop, means CAN change value while in the loop, BUT DONT REMOVE OR ELSE INDEX OUT OR RANGE ********
 #     2
 #     3
 #     4
 for i in range(len(array)):
+
+# results = 4
+#	3
+#	2
+#	1
+
+for i in range(len(array)-1, -1, -1):
 
 # results = [1, 2, 3, 4, 1, 2, 3, 4]
 array += array 
