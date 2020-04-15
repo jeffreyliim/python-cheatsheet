@@ -82,3 +82,8 @@ https://leetcode.com/problems/sort-colors/
 
 https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 
+https://leetcode.com/problems/balance-a-binary-search-tree/submissions
+
+https://leetcode.com/problems/minimum-path-sum
+
+https://leetcode.com/problems/unique-paths/
