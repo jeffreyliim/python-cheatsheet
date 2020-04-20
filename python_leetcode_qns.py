@@ -1,6 +1,6 @@
 https://leetcode.com/problems/maximum-subarray/
 
-https://leetcode.com/problems/di-string-match/submissions/
+https://leetcode.com/problems/di-string-match
 
 https://leetcode.com/problems/first-missing-positive
 
@@ -12,9 +12,9 @@ https://leetcode.com/problems/string-without-aaa-or-bbb/
 
 https://repl.it/@JeffreyLim/Minimum-area-two-banners-cover-buildings
 
-https://leetcode.com/problems/jump-game/submissions/
+https://leetcode.com/problems/jump-game
 
-https://leetcode.com/problems/permutations/submissions/
+https://leetcode.com/problems/permutations
 
 https://leetcode.com/problems/symmetric-tree
 
@@ -24,19 +24,19 @@ https://leetcode.com/problems/minimum-depth-of-binary-tree
 
 https://leetcode.com/problems/maximum-depth-of-n-ary-tree
 
-https://leetcode.com/problems/plus-one/submissions/submissions
+https://leetcode.com/problems/plus-one
 
-https://leetcode.com/problems/n-ary-tree-preorder-traversal/submissions
+https://leetcode.com/problems/n-ary-tree-preorder-traversal
 
 https://www.geeksforgeeks.org/merge-sort
 
-https://leetcode.com/problems/balance-a-binary-search-tree/submissions
+https://leetcode.com/problems/balance-a-binary-search-tree
 
 https://leetcode.com/problems/sort-an-array/
 
 https://leetcode.com/problems/group-anagrams/
 
-https://leetcode.com/problems/top-k-frequent-elements/submissions/
+https://leetcode.com/problems/top-k-frequent-elements
 
 https://leetcode.com/problems/number-of-islands/
 
@@ -50,7 +50,7 @@ https://leetcode.com/problems/longest-common-prefix
 
 https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
 
-https://leetcode.com/problems/invert-binary-tree/submissions
+https://leetcode.com/problems/invert-binary-tree
 
 https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 
@@ -82,7 +82,7 @@ https://leetcode.com/problems/sort-colors/
 
 https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 
-https://leetcode.com/problems/balance-a-binary-search-tree/submissions
+https://leetcode.com/problems/balance-a-binary-search-tree
 
 https://leetcode.com/problems/minimum-path-sum
 

@@ -42,6 +42,9 @@ any(elem in array1 for elem in array2)
 # results = [[], [], []]
 [[] for _ in range(3)]
 
+# results = [2,3]
+[elem for elem in array1 if elem > 1]
+
 # results = True
 isinstance(1, int)
 type(1) == int
