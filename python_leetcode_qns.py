@@ -78,12 +78,18 @@ https://leetcode.com/problems/maximum-binary-tree-ii/
 
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
+https://leetcode.com/problems/validate-binary-search-tree/
+
 https://leetcode.com/problems/sort-colors/
 
 https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 
-https://leetcode.com/problems/balance-a-binary-search-tree
-
 https://leetcode.com/problems/minimum-path-sum
 
 https://leetcode.com/problems/unique-paths/
+
+https://www.hackerrank.com/challenges/stockmax/problem
+
+https://leetcode.com/problems/longest-palindromic-substring/
+
+https://leetcode.com/problems/product-of-array-except-self/

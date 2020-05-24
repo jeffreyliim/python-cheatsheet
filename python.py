@@ -42,8 +42,23 @@ any(elem in array1 for elem in array2)
 # results = [[], [], []]
 [[] for _ in range(3)]
 
+# results = [1,2,3,5]
+temp = False
+array1.append(4) if temp == True else array1.append(5)
+
 # results = [2,3]
 [elem for elem in array1 if elem > 1]
+
+# results = [true, true, false]
+[elem <= 2 for elem in array1]
+
+# find intersection between 2 lists
+a = [1,2,3], b = [2,3,7]
+# results = [2, 3]
+[elem for elem in b if elem in a]
+
+# results = [7]
+[elem for elem in b if elem not in a]
 
 # results = True
 isinstance(1, int)
@@ -347,6 +362,8 @@ float(string)
 # results = 0   results = -1
 string.find('a'), string.find('z')
 
+# results = 'cd'
+string.replace('a','').replace('b','')
 
 ############   LINKEDLIST   ############
 class LinkedList:
