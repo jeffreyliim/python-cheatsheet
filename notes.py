@@ -420,18 +420,18 @@ t.add(t, 21)
 
 
 # ********  tip ******** binary search trees have distinct keys hence duplicate keys are not allowed!!
-# construct binary search tree with an array given
+# construct binary search tree with a preorder list given
 # arr = [1, 2, 3]
-def constructbinarysearchtree(self, root, val)
+def constructbinarytreefrompreorder(self, root, val)
 root = None
 for i in range(len(arr)):
   val = arr[i]
   # replacing the entire binary tree with the new value inside
-  root = self.construct(root, val)
+  root = self.constructbtfrompreorderlist(root, val)
 return root
 
 
-def construct(self, root, val):
+def constructbtfrompreorderlist(self, root, val):
   # here is when we construct by adding a node
   if not root:
     return BinaryTree(val)
@@ -441,6 +441,15 @@ def construct(self, root, val):
     root.right = self.construct(root.right, val)
   # this root is returned as the first root node when the above calls are finished.
   return root
+
+
+# construct binary search tree from sorted array
+def sortedArrayToBST(self, nums):
+    def constructbst(nums, l, r):
+	if l <= r:
+            mid = (l+r)//2
+            return TreeNode(nums[mid], constructbst(nums, l, mid-1), constructbst(nums, mid+1, r))
+    return constructbst(nums, 0, len(nums)-1)
 
 
 # search for a node val in binary search tree and return the node and its children
@@ -472,11 +481,7 @@ def isValidBST(self, root: TreeNode) -> bool:
   return copy_temp == temp
     
 def inorder(self, root: TreeNode, temp: List[int]):
-  if root:
-    self.inorder(root.left, temp)
-    temp.append(root.val)
-    self.inorder(root.right, temp)
-
+	return self.inorder(root.left) + [root.val] + self.inorder(root.right) if root else []
 
 ############   MIN HEAP   ############
 # heap = []           
