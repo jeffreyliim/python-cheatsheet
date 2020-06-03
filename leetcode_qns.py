@@ -8,6 +8,8 @@ https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 
 https://leetcode.com/problems/two-sum/
 
+https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+
 https://leetcode.com/problems/di-string-match
 
 https://leetcode.com/problems/first-missing-positive
@@ -45,6 +47,8 @@ https://leetcode.com/problems/sort-an-array/
 https://leetcode.com/problems/group-anagrams/
 
 https://leetcode.com/problems/top-k-frequent-elements
+
+https://leetcode.com/problems/kth-largest-element-in-an-array/
 
 https://leetcode.com/problems/number-of-islands/
 
@@ -96,11 +100,13 @@ https://leetcode.com/problems/balanced-binary-tree/
 
 https://leetcode.com/problems/validate-binary-search-tree/
 
-https://leetcode.com/problems/find-largest-value-in-each-tree-row/lanc
+https://leetcode.com/problems/find-largest-value-in-each-tree-row/
 
 https://leetcode.com/problems/deepest-leaves-sum/
 
 https://leetcode.com/problems/find-mode-in-binary-search-tree
+
+https://leetcode.com/problems/find-largest-value-in-each-tree-row/
 
 https://leetcode.com/problems/sum-root-to-leaf-numbers/
 
@@ -113,6 +119,12 @@ https://leetcode.com/problems/minimum-path-sum
 https://leetcode.com/problems/unique-paths/
 
 https://www.hackerrank.com/challenges/stockmax/problem
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 
 https://leetcode.com/problems/longest-palindromic-substring/
 
@@ -177,3 +189,9 @@ https://leetcode.com/problems/move-zeroes/
 https://repl.it/@JeffreyLim/shortest-path-to-bank
 
 https://leetcode.com/problems/shortest-distance-to-a-character/
+
+https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+https://repl.it/@JeffreyLim/number-to-currency#main.py
+
+https://leetcode.com/problems/course-schedule/
