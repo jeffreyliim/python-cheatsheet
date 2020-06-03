@@ -514,7 +514,45 @@ c.values()
 # results = 6  ,  9
 sum(c.keys()) or sum(c.values())
 
+# results Counter({0: 3})
+c = collections.Counter()
+c[0] += 1
+c[0] += 2
 
+# results = Counter({1: 4, 2: 3, 3: 2})
+	    3					<- max value of KEY	returns key
+	    1					<- max value of VALUE   returns key
+
+print(c)
+print(max(c))
+print(max(c, key=c.get))
+
+# results [(1, 4), (2, 3)]
+c.most_common(2)
+
+# results = 4
+c.get(1)
+
+# results = Counter({1: 2, 2: 2, 5: 2, 4: 1})		***** TIP: Counter intersection takes the key and the max value of intersection *****
+	    Counter({2: 3, 1: 1, 6: 1, 5: 1})
+	    Counter({2: 2, 1: 1, 5: 1})
+	    
+d = Counter([1,1,2,2,4,5])
+a = Counter([1,1,2,2,6,5])
+print(d)
+print(a)
+print(d & a)
+
+# results = Counter({1: 2, 2: 2, 5: 2, 4: 1})		***** TIP: Counter intersection takes the key and the MAX value of intersection AND the union of items not in intersection *****
+	    Counter({2: 3, 1: 1, 6: 1, 5: 1})
+	    Counter({2: 3, 1: 2, 5: 2, 4: 1, 6: 1})
+
+d = Counter([1,1,2,2,4,5,5])
+a = Counter([2,1,2,2,6,5])
+
+print(d)
+print(a)
+print(d | a)
 
 
 ############   DEQUEUE   ############   <- high performance container datatypes
