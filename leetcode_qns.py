@@ -1,4 +1,8 @@
+https://yangshun.github.io/tech-interview-handbook/algorithms/array
+
 https://leetcode.com/problems/maximum-subarray/
+
+https://leetcode.com/problems/maximum-product-subarray/
 
 https://leetcode.com/problems/valid-parentheses/
 
@@ -6,9 +10,21 @@ https://leetcode.com/problems/valid-parenthesis-string/
 
 https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 
+https://leetcode.com/problems/score-of-parentheses/
+
 https://leetcode.com/problems/two-sum/
 
+https://leetcode.com/problems/3sum/
+
+https://leetcode.com/problems/valid-palindrome-ii/
+
+https://leetcode.com/problems/count-primes/
+
 https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+
+https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/
+
+https://leetcode.com/problems/container-with-most-water/
 
 https://leetcode.com/problems/di-string-match/
 
@@ -17,6 +33,18 @@ https://leetcode.com/problems/first-missing-positive/
 https://leetcode.com/problems/palindrome-partitioning/
 
 https://leetcode.com/problems/middle-of-the-linked-list/
+
+https://leetcode.com/problems/reverse-linked-list-ii/
+
+https://leetcode.com/problems/linked-list-cycle/
+
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+https://leetcode.com/problems/pascals-triangle/
+
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
+https://leetcode.com/problems/search-in-rotated-sorted-array/
 
 https://leetcode.com/problems/string-without-aaa-or-bbb/
 
@@ -98,6 +126,8 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 
+https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
 https://leetcode.com/problems/balanced-binary-tree/
 
 https://leetcode.com/problems/validate-binary-search-tree/
@@ -119,6 +149,8 @@ https://leetcode.com/problems/sum-root-to-leaf-numbers/
 https://leetcode.com/problems/sort-colors/
 
 https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+
+https://leetcode.com/problems/non-overlapping-intervals/
 
 https://leetcode.com/problems/minimum-path-sum/
 
@@ -201,3 +233,9 @@ https://leetcode.com/problems/kth-largest-element-in-an-array/
 https://repl.it/@JeffreyLim/number-to-currency#main.py/
 
 https://leetcode.com/problems/course-schedule/
+
+https://leetcode.com/problems/merge-intervals/
+
+https://leetcode.com/problems/non-overlapping-intervals/
+
+https://leetcode.com/problems/search-a-2d-matrix/
