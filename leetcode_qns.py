@@ -18,6 +18,12 @@ https://leetcode.com/problems/3sum/
 
 https://leetcode.com/problems/valid-palindrome-ii/
 
+https://leetcode.com/problems/longest-palindromic-subsequence/
+
+https://leetcode.com/problems/palindrome-partitioning/
+
+https://leetcode.com/problems/palindromic-substrings/
+
 https://leetcode.com/problems/count-primes/
 
 https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
@@ -30,8 +36,6 @@ https://leetcode.com/problems/di-string-match/
 
 https://leetcode.com/problems/first-missing-positive/
 
-https://leetcode.com/problems/palindrome-partitioning/
-
 https://leetcode.com/problems/middle-of-the-linked-list/
 
 https://leetcode.com/problems/reverse-linked-list-ii/
@@ -43,6 +47,8 @@ https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 https://leetcode.com/problems/pascals-triangle/
 
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 
 https://leetcode.com/problems/search-in-rotated-sorted-array/
 
@@ -129,6 +135,8 @@ https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 
 https://leetcode.com/problems/balanced-binary-tree/
+
+https://leetcode.com/problems/construct-string-from-binary-tree/
 
 https://leetcode.com/problems/validate-binary-search-tree/
 
