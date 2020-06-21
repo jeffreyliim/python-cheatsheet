@@ -134,13 +134,26 @@ float('inf')
 # array = [3, 2, 1, 1]
 
 # results = {1, 2, 3}     ******** TIP: sets will return always return unsorted/unordered and unindexed ******** 
-set(array)
+myset = set(array)
 
 # results = [1, 2, 3]
-list(set(array))
+list(myset)
 
 # results = 3
-len(set(array))
+len(myset)
+
+# results = {1, 2, 3, 4}
+myset.add(4)
+
+# results = ERROR
+myset.remove(4)		# 4 doesnt exist in set. Can use try except for this
+
+# results = {1, 3, 4} 		******** TIP: discard method does not panic if item not there *********
+myset.discard(2)
+
+# results = True		******** TIP: set insert/delete/add complexity is O(1) ******** very much like a map  ********
+1 in myset
+
 
 ############	 MAPS/DICTIONARIES    ############
 # mapp = {'a': 1,'b': 2,'c': 3}
