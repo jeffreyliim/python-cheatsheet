@@ -298,6 +298,18 @@ statistics.mean(array1)
 # results = 1 2 3 4	destructuring list
 *array1
 
+# print all possible combinations of numbers in list
+from itertools import permutations
+nums = [1,7,3]
+numbers = []
+for i in range(len(nums)+1):
+  for o in range(i, len(nums)+1):
+    if len(nums[i:o]) > 0:
+      a = [int(''.join(map(str, elem))) for elem in list(permutations(nums[i:o]))]
+      numbers += a
+print(numbers)
+
+
 ############   STRINGS   ############
 # string = 'abcd'
 
@@ -352,7 +364,7 @@ list(string)
 # results = 1, counts the number of occurence of a string in the string
 string.count('a')
 
-# results = 'abcd', gets lower case of string
+# results = 'abcd', gets lower case of string, if there is number it will ignore
 string.lower()
 
 # results = 'ABCD', gets upper case of string
@@ -393,6 +405,10 @@ ll = LinkedList(1)
 ll.insert(2)
 ll.insert(3)
 ll.insert(4)
+
+# traversing through linkedlist
+while ll:
+  ll = ll.next
 
 # results = 1 -> 2 -> 3 -> 4
 
