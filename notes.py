@@ -298,17 +298,18 @@ statistics.mean(array1)
 # results = 1 2 3 4	destructuring list
 *array1
 
-# print all possible combinations of numbers in list
+# combinations of all possible numbers in a list
+# results = [1, 17, 71, 173, 137, 713, 731, 317, 371, 7, 73, 37, 3]
 from itertools import permutations
 nums = [1,7,3]
 numbers = []
 for i in range(len(nums)+1):
-  for o in range(i, len(nums)+1):
+  for o in range(i+1, len(nums)+1):    
+    print(nums[i:o])    
     if len(nums[i:o]) > 0:
       a = [int(''.join(map(str, elem))) for elem in list(permutations(nums[i:o]))]
       numbers += a
 print(numbers)
-
 
 ############   STRINGS   ############
 # string = 'abcd'
