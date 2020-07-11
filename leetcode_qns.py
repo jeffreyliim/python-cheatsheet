@@ -16,9 +16,11 @@ https://leetcode.com/problems/two-sum/
 
 https://leetcode.com/problems/3sum/
 
+https://leetcode.com/problems/valid-palindrome/
+
 https://leetcode.com/problems/valid-palindrome-ii/
 
-https://leetcode.com/problems/longest-palindromic-subsequence/
+https://leetcode.com/problems/longest-palindromic-subsequence/			X
 
 https://leetcode.com/problems/palindrome-partitioning/
 
@@ -160,6 +162,8 @@ https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 
 https://leetcode.com/problems/non-overlapping-intervals/
 
+https://leetcode.com/problems/merge-intervals/
+
 https://leetcode.com/problems/minimum-path-sum/
 
 https://leetcode.com/problems/unique-paths/
@@ -212,8 +216,6 @@ https://leetcode.com/problems/maximum-69-number/
 
 https://leetcode.com/problems/split-a-string-in-balanced-strings/
 
-https://leetcode.com/problems/jump-game/
-
 https://leetcode.com/problems/compare-version-numbers/
 
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -241,9 +243,5 @@ https://leetcode.com/problems/kth-largest-element-in-an-array/
 https://repl.it/@JeffreyLim/number-to-currency#main.py/
 
 https://leetcode.com/problems/course-schedule/
-
-https://leetcode.com/problems/merge-intervals/
-
-https://leetcode.com/problems/non-overlapping-intervals/
 
 https://leetcode.com/problems/search-a-2d-matrix/
