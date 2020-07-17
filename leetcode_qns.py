@@ -4,6 +4,8 @@ https://leetcode.com/problems/maximum-subarray/
 
 https://leetcode.com/problems/maximum-product-subarray/
 
+https://leetcode.com/problems/subarray-sum-equals-k/
+
 https://leetcode.com/problems/valid-parentheses/
 
 https://leetcode.com/problems/valid-parenthesis-string/
@@ -57,6 +59,8 @@ https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 
 https://leetcode.com/problems/search-in-rotated-sorted-array/
+  
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
 https://leetcode.com/problems/string-without-aaa-or-bbb/
 
@@ -68,6 +72,8 @@ https://leetcode.com/problems/permutations/
 
 https://leetcode.com/problems/symmetric-tree/
 
+https://leetcode.com/problems/binary-tree-maximum-path-sum/
+  
 https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
 https://leetcode.com/problems/minimum-depth-of-binary-tree/
@@ -76,13 +82,13 @@ https://leetcode.com/problems/maximum-width-of-binary-tree/
 
 https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
 
+https://leetcode.com/problems/longest-univalue-path/
+
 https://leetcode.com/problems/plus-one/
 
 https://leetcode.com/problems/n-ary-tree-preorder-traversal/
 
 https://www.geeksforgeeks.org/merge-sort/
-
-https://leetcode.com/problems/balance-a-binary-search-tree/
 
 https://leetcode.com/problems/sort-an-array/
 
@@ -104,8 +110,6 @@ https://leetcode.com/problems/longest-common-prefix/
 
 https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
 
-https://leetcode.com/problems/invert-binary-tree/
-
 https://leetcode.com/problems/lucky-numbers-in-a-matrix/
 
 https://repl.it/@JeffreyLim/minimum-number-of-flips-in-binary-string/
@@ -115,6 +119,10 @@ https://leetcode.com/problems/path-sum/
 https://leetcode.com/problems/path-sum-ii/
 
 https://leetcode.com/problems/path-sum-iii/
+
+https://leetcode.com/problems/invert-binary-tree/
+
+https://leetcode.com/problems/balance-a-binary-search-tree/
 
 https://leetcode.com/problems/trim-a-binary-search-tree/
 
