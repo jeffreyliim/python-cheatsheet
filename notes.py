@@ -413,6 +413,14 @@ while ll:
 
 # results = 1 -> 2 -> 3 -> 4
 
+# traversing through copy of linkedlist and returning actual linkedlist OR traversing through actual linkedlist and return copy of linkedlist is the SAME
+ll_cp = ll
+while ll_cp:
+  ll_cp = ll_cp.next
+
+while ll:
+  ll = ll.next
+
 ############   BINARY TREE   ############
 # ********  tip ******** if you are doing traversals and want to add a value in a list, copy the value and add it in. Else, it might return the old value
 # refer to https://leetcode.com/submissions/detail/314657078/
