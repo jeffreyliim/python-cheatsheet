@@ -44,6 +44,10 @@ https://leetcode.com/problems/reverse-linked-list-ii/
 
 https://leetcode.com/problems/linked-list-cycle/
 
+https://leetcode.com/problems/odd-even-linked-list/
+
+https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
 https://leetcode.com/problems/pascals-triangle/
@@ -189,8 +193,6 @@ https://leetcode.com/problems/combinations/
 https://leetcode.com/problems/reverse-integer/
 
 https://leetcode.com/problems/destination-city/
-
-https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 
 https://leetcode.com/problems/find-the-duplicate-number/
 
