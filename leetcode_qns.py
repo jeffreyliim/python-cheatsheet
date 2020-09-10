@@ -14,6 +14,8 @@ https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 
 https://leetcode.com/problems/score-of-parentheses/
 
+https://leetcode.com/problems/longest-valid-parentheses/
+
 https://leetcode.com/problems/two-sum/
 
 https://leetcode.com/problems/3sum/
