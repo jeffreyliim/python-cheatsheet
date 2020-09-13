@@ -67,6 +67,8 @@ https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-
 https://leetcode.com/problems/string-without-aaa-or-bbb/
 
 https://repl.it/@JeffreyLim/Minimum-area-two-banners-cover-buildings/
+  
+https://repl.it/@JeffreyLim/sum-of-elements-in-rectangle-in-2D-matrix
 
 https://leetcode.com/problems/jump-game/
 
