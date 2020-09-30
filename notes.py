@@ -303,12 +303,13 @@ statistics.mean(array1)
 from itertools import permutations
 nums = [1,7,3]
 numbers = []
-for i in range(len(nums)+1):
-  for o in range(i+1, len(nums)+1):    
-    print(nums[i:o])    
-    if len(nums[i:o]) > 0:
-      a = [int(''.join(map(str, elem))) for elem in list(permutations(nums[i:o]))]
-      numbers += a
+nums = [str(elem) for elem in nums]
+for i in range(len(nums)):
+  for o in range(i, len(nums)):        
+    print(nums[i:o+1])
+    perms = list(permutations(nums[i:o+1]))        
+    a = [int(''.join(elem)) for elem in perms]
+    numbers += a
 print(numbers)
 
 ############   STRINGS   ############
