@@ -259,3 +259,9 @@ https://repl.it/@JeffreyLim/number-to-currency#main.py/
 https://leetcode.com/problems/course-schedule/
 
 https://leetcode.com/problems/search-a-2d-matrix/
+  
+https://leetcode.com/problems/text-justification/
+  
+https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
+
+https://leetcode.com/problems/maximal-square/
