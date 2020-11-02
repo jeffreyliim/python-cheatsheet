@@ -265,3 +265,7 @@ https://leetcode.com/problems/text-justification/
 https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 
 https://leetcode.com/problems/maximal-square/
+  
+https://leetcode.com/problems/shuffle-string/
+  
+https://leetcode.com/problems/minimum-time-visiting-all-points/
