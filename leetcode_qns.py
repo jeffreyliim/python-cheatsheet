@@ -16,6 +16,8 @@ https://leetcode.com/problems/score-of-parentheses/
 
 https://leetcode.com/problems/longest-valid-parentheses/
 
+https://leetcode.com/problems/generate-parentheses/
+  
 https://leetcode.com/problems/two-sum/
 
 https://leetcode.com/problems/3sum/
@@ -53,6 +55,8 @@ https://leetcode.com/problems/odd-even-linked-list/
 https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+  
+https://leetcode.com/problems/swap-nodes-in-pairs/
 
 https://leetcode.com/problems/pascals-triangle/
 
